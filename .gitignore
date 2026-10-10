@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Django
+*.log
+media/
+staticfiles/
+
+# Local databases
+db.sqlite3
+db.sqlite3-journal
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Editor and OS
+.DS_Store
+.vscode/
+.idea/
